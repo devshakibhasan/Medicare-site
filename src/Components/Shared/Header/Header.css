@@ -1,0 +1,116 @@
+.top-content {
+    background-color: #F2F2F2;
+}
+
+.top-content-left {
+    display: flex;
+}
+
+.top-content-left p {
+    padding-top: .5em;
+    color: #6c757d;
+}
+
+.top-content-mail-icon {
+    margin-right: 2px;
+    padding-top: .7em;
+    margin-right: .4em;
+    color: #299ADC;
+}
+
+.top-content-icon {
+    background: #fff;
+    margin-right: .5px;
+    margin-top: .3em;
+    padding: .7em;
+    margin-right: .4em;
+    color: #299ADC;
+}
+
+.booked-btn {
+    background-color: #299ADC;
+    border: none;
+    color: #fff;
+    margin: .3em;
+}
+
+/* //////////////////////////////// */
+.top-content-middle {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo img {
+    height: 7em;
+
+}
+
+.top-content-middle-icon {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-right: 2px;
+    margin-top: .3em;
+    padding: .7em;
+    margin-right: .4em;
+    color: #299ADC;
+}
+
+.top-content-middle span {
+    color: #299ADC;
+    font-weight: 700;
+}
+
+.top-content-middle span {
+    color: #299ADC;
+    font-weight: 700;
+}
+
+.top-content-middle p {
+    color: #6c757d;
+    font-size: .8em;
+}
+
+/* ??????????????????????? */
+.navBar {
+    height: 3.5rem;
+    background: linear-gradient(120deg, #299ADC 43%, #3BC053 43%);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 25px;
+    padding-right: 2.1em;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -1em;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    background-color: #ffff;
+    color: #299ADC;
+    height: 4rem;
+
+}
+
+@media only screen and (max-width: 991px) {
+    .navBar {
+        background: #2ac3c3;
+    }
+    .navbar-collapse {
+        background-color: #2ac3c3;
+      
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+       float: left;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        background-color: #2ac3c3;
+    }
+}
