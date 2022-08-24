@@ -78,21 +78,21 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 14px;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
     padding-left: 25px;
     padding-right: 2.1em;
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: -1em;
+    margin-top: -.7em;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
     background-color: #ffff;
     color: #299ADC;
-    height: 4rem;
+    height: 3.7rem;
 
 }
 

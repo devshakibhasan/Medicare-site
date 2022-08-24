@@ -1,0 +1,33 @@
+.home-top-section {
+
+    background-image: url(https://preview.colorlib.com/theme/medex/images/xbg_2.jpg.pagespeed.ic.UAttgbS3rM.webp);
+    height: 45em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-color: rgb(213, 3, 3);
+   background-position: 0% -20%;
+   content: "";
+ 
+
+}
+
+
+.home-top-right-section {
+    padding-top: 20%;
+
+}
+
+.home-top-right-section h1 {
+    font-size: 3.7em;
+    color: #fff;
+    line-height: 1;
+    font-weight: 700;
+    text-align: left;
+}
+
+.home-top-right-section p {
+    font-size: 1.5em;
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+}
