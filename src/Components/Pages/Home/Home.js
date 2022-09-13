@@ -180,10 +180,10 @@ class Home extends Component {
                 <section class="home-banner-first">
                     <Container>
                         <Row>
-                            <Col md={5} lg={5}>
+                            <Col md={4} lg={5}>
 
                             </Col>
-                            <Col md={6} lg={6} className='home-banner-first-right'>
+                            <Col md={7} lg={6} className='home-banner-first-right'>
                                 <h2>Your Health is Our Priority</h2> <br/> <br/>
                                 <p>We can manage your dream building A small river named Duden flows by their place</p>
                                 <div className='home-banner-btn'>
