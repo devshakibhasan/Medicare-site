@@ -189,7 +189,6 @@ class Home extends Component {
                                 <div className='home-banner-btn'>
                                     <button>Make an appointment</button>
                                 </div>
-
                             </Col>
                         </Row>
                     </Container>
