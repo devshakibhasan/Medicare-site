@@ -156,6 +156,35 @@ class Home extends Component {
                         </Row>
                     </Container>
                 </div>
+                <div className='home-ap-info'>
+                    <Container>
+                        <Row>
+                            <Col md={6} lg={5} className='home-ap-info-left'>
+                                <img src="https://preview.colorlib.com/theme/medex/images/xabout.jpg.pagespeed.ic.YdESjG30xH.webp" className='img-thumbnail' alt="" />            </Col>
+                            <Col md={6} lg={6} className=' home-ap-info-right'>
+                                <h3>We Are <span>Medex</span>  A Healthcare Provider</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <div className='home-ap-info-btn'>
+                                    <button>Make an appointment</button>
+                                    <div className='info-cont-btn'>
+                                        <button >Contact us</button>
+                                    </div>
+
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className='home-banner-first'>
+                    <Col>
+
+                    </Col>
+                    <Col>
+                        <h2>Your Health is Our Priority</h2>
+                        <p>We can manage your dream building A small river named Duden flows by their place</p>
+                        <button>Make an appointment</button>
+                    </Col>
+                </div>
 
             </div>
         );
