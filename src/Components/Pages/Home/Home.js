@@ -4,6 +4,7 @@ import { faDribbble, faFacebookF, faInstagram, faOptinMonster, faTwitter } from 
 import React, { Component } from 'react';
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup } from 'react-bootstrap';
 import './Home.css';
+import './Home2.css';
 import { Button } from 'bootstrap';
 import Header from '../../Shared/Header/Header';
 
@@ -175,16 +176,23 @@ class Home extends Component {
                         </Row>
                     </Container>
                 </div>
-                <div className='home-banner-first'>
-                    <Col>
+             
+                <section class="home-banner-first">
+                    <Container>
+                        <Row>
+                            <Col md={5} lg={5}>
 
-                    </Col>
-                    <Col>
-                        <h2>Your Health is Our Priority</h2>
-                        <p>We can manage your dream building A small river named Duden flows by their place</p>
-                        <button>Make an appointment</button>
-                    </Col>
-                </div>
+                            </Col>
+                            <Col md={6} lg={6}>
+                                <h2>Your Health is Our Priority</h2>
+                                <p>We can manage your dream building A small river named Duden flows by their place</p>
+                                <button>Make an appointment</button>
+                            </Col>
+                        </Row>
+                    </Container>
+
+
+                </section>
 
             </div>
         );
