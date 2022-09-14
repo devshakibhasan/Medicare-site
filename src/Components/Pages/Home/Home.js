@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faPaperPlane, faMap, faAmbulance, faStethoscope, faUserDoctor, faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDribbble, faFacebookF, faInstagram, faOptinMonster, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import React, { Component } from 'react';
-import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup } from 'react-bootstrap';
+import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup, Tab } from 'react-bootstrap';
 import './Home.css';
 import './Home2.css';
 import { Button } from 'bootstrap';
@@ -18,13 +18,12 @@ class Home extends Component {
                             <Col xs={12} sm={12} md={6} lg={6} className='text-center d-flex justify-content-start align-items-center'>
 
                             </Col>
-                            <Col xs={12} sm={12} md={8} lg={6} className='home-top-right-section'>
 
+                            <Col xs={12} sm={12} md={8} lg={6} className='home-top-right-section'>
                                 <h1>
                                     The Most Valuable Thing is Your Health</h1>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
                                 <div className='selected-form'>
-
                                     {/* <div className='selecte-form'>
                                         <Form.Select aria-label="Default select example">
                                             <option>Select Department</option>
@@ -37,20 +36,17 @@ class Home extends Component {
                                         <button>BOOK APPOINTMENT</button>
                                     </div> */}
                                     <InputGroup className="mb-3">
-                                        <Form.Select aria-label="Default select example" className='form-select'>
+                                        <Form.Select aria-label="Default select example" className='form-select form-Select'>
                                             <option>Select Department</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
                                             <option value="3">Three</option>
                                         </Form.Select>
-                                        <button variant="outline-secondary" id="button-addon2">
+                                        <button variant="outline-tab2ary" id="button-addon2">
                                             BOOK APPOINTMENT
                                         </button>
                                     </InputGroup>
-
-
                                 </div>
-
                             </Col>
                         </Row>
                     </Container>
@@ -184,7 +180,7 @@ class Home extends Component {
 
                             </Col>
                             <Col md={7} lg={6} className='home-banner-first-right'>
-                                <h2>Your Health is Our Priority</h2> <br/> <br/>
+                                <h2>Your Health is Our Priority</h2> <br /> <br />
                                 <p>We can manage your dream building A small river named Duden flows by their place</p>
                                 <div className='home-banner-btn'>
                                     <button>Make an appointment</button>
@@ -192,10 +188,56 @@ class Home extends Component {
                             </Col>
                         </Row>
                     </Container>
-
-
                 </section>
 
+                <div className='home-dept'>
+                    <h1>Medex Department</h1>
+                    <Container>
+                        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                            <Row>
+                                <Col sm={3}>
+                                    <Nav variant="pills" className="flex-column">
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="first">Neurology</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab2">Ophthalmology</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab3">Nuclear Magnetic
+                                            </Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab4">X-ray</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab5">Surgical</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab6">Cardiology</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab7">Dental Clinic</Nav.Link>
+                                        </Nav.Item>
+                                    </Nav>
+                                </Col>
+                                <Col sm={9}>
+                                    <Tab.Content>
+                                        <Tab.Pane eventKey="first">
+                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+
+                                            The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="tab2">
+                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+
+                                            The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+                                        </Tab.Pane>
+                                    </Tab.Content>
+                                </Col>
+                            </Row>
+                        </Tab.Container>
+                    </Container>
+                </div>
             </div>
         );
     }
