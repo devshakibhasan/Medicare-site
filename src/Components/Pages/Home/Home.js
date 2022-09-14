@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faPaperPlane, faMap, faAmbulance, faStethoscope, faUserDoctor, faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faPaperPlane, faMap, faAmbulance, faStethoscope, faUserDoctor, faMapLocationDot, faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 import { faDribbble, faFacebookF, faInstagram, faOptinMonster, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import React, { Component } from 'react';
-import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup, Tab } from 'react-bootstrap';
+import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup, Tab, Table } from 'react-bootstrap';
 import './Home.css';
 import './Home2.css';
 import { Button } from 'bootstrap';
@@ -56,7 +56,7 @@ class Home extends Component {
                     <Container>
                         <Row>
                             <Col xs={12} sm={12} md={6} lg={7} className='home-ap-left-section'>
-                                <h1>Welcome to <span>Medex</span></h1>
+                                <h1>Welcome to <span>Medicare</span></h1>
                                 <Row>
                                     <Col xs={12} sm={12} md={12} lg={6}>
                                         <Row>
@@ -157,9 +157,9 @@ class Home extends Component {
                     <Container>
                         <Row>
                             <Col md={6} lg={5} className='home-ap-info-left'>
-                                <img src="https://preview.colorlib.com/theme/medex/images/xabout.jpg.pagespeed.ic.YdESjG30xH.webp" className='img-thumbnail' alt="" />            </Col>
+                                <img src="https://i.ibb.co/WsrkM80/xabout-jpg-pagespeed-ic-Yd-ESj-G30x-H.webp" className='img-thumbnail' alt="" />            </Col>
                             <Col md={6} lg={6} className=' home-ap-info-right'>
-                                <h3>We Are <span>Medex</span>  A Healthcare Provider</h3>
+                                <h3>We Are <span>Medicare</span>  A Healthcare Provider</h3>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                                 <div className='home-ap-info-btn'>
                                     <button>Make an appointment</button>
@@ -191,46 +191,360 @@ class Home extends Component {
                 </section>
 
                 <div className='home-dept'>
-                    <h1>Medex Department</h1>
+                    <h1>Medicare <span>Department</span> </h1>
                     <Container>
                         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                             <Row>
                                 <Col sm={3}>
                                     <Nav variant="pills" className="flex-column">
                                         <Nav.Item>
-                                            <Nav.Link eventKey="first">Neurology</Nav.Link>
-                                        </Nav.Item>
-                                        <Nav.Item>
-                                            <Nav.Link eventKey="tab2">Ophthalmology</Nav.Link>
-                                        </Nav.Item>
-                                        <Nav.Item>
-                                            <Nav.Link eventKey="tab3">Nuclear Magnetic
+                                            <Nav.Link eventKey="first">
+                                                <div className='tabsNav'>
+                                                    <img src="https://i.ibb.co/SBB1ZG2/doctor-Sign.png" alt="" /> <h3>Neurology</h3>
+                                                </div>
                                             </Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="tab4">X-ray</Nav.Link>
+                                            <Nav.Link eventKey="tab2">
+                                                <div className='tabsNav'>
+                                                    <img src="https://i.ibb.co/SBB1ZG2/doctor-Sign.png" alt="" /> <h3>Ophthalmology</h3>
+                                                </div>
+                                            </Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="tab5">Surgical</Nav.Link>
+                                            <Nav.Link eventKey="tab3">
+                                                <div className='tabsNav'>
+                                                    <img src="https://i.ibb.co/SBB1ZG2/doctor-Sign.png" alt="" /> <h3>Nuclear Magnetic</h3>
+                                                </div>
+                                            </Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="tab6">Cardiology</Nav.Link>
+                                            <Nav.Link eventKey="tab4">
+                                                <div className='tabsNav'>
+                                                    <img src="https://i.ibb.co/SBB1ZG2/doctor-Sign.png" alt="" />
+                                                    <h3>  X-ray</h3>
+                                                </div>
+                                            </Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="tab7">Dental Clinic</Nav.Link>
+                                            <Nav.Link eventKey="tab5">
+                                                <div className='tabsNav'>
+                                                    <img src="https://i.ibb.co/SBB1ZG2/doctor-Sign.png" alt="" /> <h3>Surgical</h3>
+                                                </div>
+                                            </Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab6">
+                                                <div className='tabsNav'>
+                                                    <img src="https://i.ibb.co/SBB1ZG2/doctor-Sign.png" alt="" /> <h3>Cardiology</h3>
+                                                </div>
+                                            </Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="tab7">
+                                                <div className='tabsNav'>
+                                                    <img src="https://i.ibb.co/SBB1ZG2/doctor-Sign.png" alt="" /> <h3>Dental Clinic</h3>
+                                                </div>
+                                            </Nav.Link>
                                         </Nav.Item>
                                     </Nav>
                                 </Col>
                                 <Col sm={9}>
-                                    <Tab.Content>
+                                    <Tab.Content className='tab-cntn'>
+
                                         <Tab.Pane eventKey="first">
-                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                            <Row>
+                                                <Col md={6} lg={4}>
+                                                    <img src="https://i.ibb.co/F0gG9s1/xdept-1-jpg-pagespeed-ic-RSSq686th-P.webp" className='img-thumbnail' alt="" />
+                                                </Col>
+                                                <Col md={6} lg={6}>
+                                                    <h3>Neurology</h3>
+                                                    <p>  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
-                                            The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.                                        </Tab.Pane>
+                                                    <p> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                </Col>
+                                            </Row>
+                                        </Tab.Pane>
                                         <Tab.Pane eventKey="tab2">
-                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                            <Row>
+                                                <Col md={6} lg={4}>
+                                                    <img src="https://i.ibb.co/rGC5hsT/xdept-2-jpg-pagespeed-ic-RSSq686th-P.webp" className='img-thumbnail' alt="" />
+                                                </Col>
+                                                <Col md={6} lg={6}>
+                                                    <h3>
+                                                        Ophthalmology</h3>
+                                                    <p>  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
-                                            The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+                                                    <p> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                </Col>
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="tab3">
+                                            <Row>
+                                                <Col md={6} lg={4}>
+                                                    <img src="https://i.ibb.co/bXV6LD8/xdept-3-jpg-pagespeed-ic-RSSq686th-P.webp" className='img-thumbnail' alt="" />
+                                                </Col>
+                                                <Col md={6} lg={6}>
+                                                    <h3>
+                                                        Nuclear Magnetic</h3>
+                                                    <p>  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+                                                    <p> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                </Col>
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="tab4">
+                                            <Row>
+                                                <Col md={6} lg={4}>
+                                                    <img src="https://i.ibb.co/nQBNqCs/xdept-4-jpg-pagespeed-ic-RSSq686th-P.webp" className='img-thumbnail' alt="" />
+                                                </Col>
+                                                <Col md={6} lg={6}>
+                                                    <h3>
+                                                        X-ray</h3>
+                                                    <p>  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+                                                    <p> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                </Col>
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="tab5">
+                                            <Row>
+                                                <Col md={6} lg={4}>
+                                                    <img src="https://i.ibb.co/dj4bHQ1/xdept-5-jpg-pagespeed-ic-RSSq686th-P.webp" className='img-thumbnail' alt="" />
+                                                </Col>
+                                                <Col md={6} lg={6}>
+                                                    <h3>
+                                                        Surgical</h3>
+                                                    <p>  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+                                                    <p> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                </Col>
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="tab6">
+                                            <Row>
+                                                <Col md={6} lg={4}>
+                                                    <img src="https://i.ibb.co/dj4bHQ1/xdept-5-jpg-pagespeed-ic-RSSq686th-P.webp" className='img-thumbnail' alt="" />
+                                                </Col>
+                                                <Col md={6} lg={6}>
+                                                    <h3>
+                                                        Cardiology</h3>
+                                                    <p>  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+                                                    <p> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                </Col>
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="tab7">
+                                            <Row>
+                                                <Col md={6} lg={4}>
+
+                                                    <img src="https://i.ibb.co/GdhLXmP/xdept-7-jpg-pagespeed-ic-y904lm6-Gq.webp" className='img-thumbnail' alt="" />
+                                                </Col>
+                                                <Col md={6} lg={6}>
+                                                    <h3>
+                                                        Dental Clinic</h3>
+                                                    <p>  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+                                                    <p> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                    <Table bordered >
+                                                        <tbody>
+                                                            <tr>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </Table>
+                                                </Col>
+                                            </Row>
                                         </Tab.Pane>
                                     </Tab.Content>
                                 </Col>
@@ -245,3 +559,15 @@ class Home extends Component {
 
 export default Home;
 
+// <img src="https://i.ibb.co/WsrkM80/xabout-jpg-pagespeed-ic-Yd-ESj-G30x-H.webp"
+// <img src="https://i.ibb.co/GdhLXmP/xdept-7-jpg-pagespeed-ic-y904lm6-Gq.webp"
+
+// <img src="https://i.ibb.co/dj4bHQ1/xdept-5-jpg-pagespeed-ic-RSSq686th-P.webp"
+
+// <img src="https://i.ibb.co/nQBNqCs/xdept-4-jpg-pagespeed-ic-RSSq686th-P.webp"
+
+// <img src="https://i.ibb.co/bXV6LD8/xdept-3-jpg-pagespeed-ic-RSSq686th-P.webp"
+
+// <img src="https://i.ibb.co/rGC5hsT/xdept-2-jpg-pagespeed-ic-RSSq686th-P.webp"
+
+// <img src="https://i.ibb.co/F0gG9s1/xdept-1-jpg-pagespeed-ic-RSSq686th-P.webp" 

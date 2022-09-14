@@ -13,12 +13,12 @@
 
 .home-top-section {
     position: relative;
-    min-height: 80vh;
+    min-height: 72vh;
     background-image: url(https://preview.colorlib.com/theme/medex/images/xbg_2.jpg.pagespeed.ic.UAttgbS3rM.webp);
     background-attachment: fixed;
     display: flex;
     justify-content: left;
-    background-position: 30% 5%;
+    background-position: 25% 1%;
     background-repeat: no-repeat;
 }
 
@@ -233,24 +233,97 @@ h4 {
 
 .nav-pills .nav-link {
     background: transparent !important;
-    color: #000;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
     border: 1px solid #E5E5E5;
     border-left: none;
     border-bottom: none;
     border-radius: 0;
-    padding: 3em 1em 3em 1em;
+    padding: 1em 1em 1em 1em;
     transition: none;
     transform: none;
 }
 
 .nav-pills .nav-link.active {
     background-color: transparent !important;
-    color: #000;
+    color: #299ADC;
+    font-size: 18px;
+    line-height: 30px;
     border: 1px solid #E5E5E5;
     border-right: none;
     border-bottom: none;
     border-radius: 0;
-    padding: 3em 1em 3em 1em;
+
     transition: none;
     transform: none;
+}
+
+.home-dept h1 {
+    margin-bottom: 2em;
+    margin-top: 0;
+}
+.home-dept h1 span {
+    color: #299ADC;
+}
+
+.home-dept .tab-cntn p,
+h3 {
+    text-align: left;
+}
+
+.home-dept h3 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.home-dept .tab-cntn h3 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.home-dept .tab-cntn p {
+    font-family: "Roboto", Arial, sans-serif;
+    background: #fff;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+.home-dept .tab-cntn img {
+    height: 37em;
+    border: none;
+
+}
+
+.tabsNav {
+    display: flex;
+}
+
+.tabsNav img {
+    height: 2.5em;
+}
+
+.tabsNav h3 {
+    padding-top: .5em;
+}
+
+.td {
+    display: flex;
+
+}
+.td .tdIcon{
+    padding-right: 1em;
+
+}
+.td .tdIcon {
+    background-color: transparent;
+    color: #3BC053;
+
 }
