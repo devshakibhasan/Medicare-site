@@ -640,6 +640,43 @@ class Home extends Component {
 
 
                 </section>
+                <div>
+                    <section class="home-banner-second">
+                        <Container>
+                            <Row className='mb-2'>
+                                <Col md={3} lg={3} >
+                                    <div className='Colu p-4 mt-2 mb-2'>
+                                        <h1>30</h1>
+                                        <h4>YEARS OF EXPERIENCED</h4>
+                                    </div>
+
+                                </Col>
+                                <Col md={3} lg={3} >
+                                    <div className='Colu p-4 mt-2 mb-2'>
+                                        <h1>4,500</h1>
+                                        <h4>HAPPY PATIENTS</h4>
+                                    </div>
+
+                                </Col>
+                                <Col md={3} lg={3} className='Col'>
+                                    <div className='Colu p-4 mt-2 mb-2'>
+                                        <h1>84</h1>
+                                        <h4>NUMBER OF DOCTORS</h4>
+                                    </div>
+
+                                </Col>
+                                <Col md={3} lg={3} className='Col'>
+                                    <div className='Colu p-4 mt-2 mb-2'>
+                                        <h1>300</h1>
+                                        <h4>NUMBER OF STAFFS</h4>
+                                    </div>
+
+                                </Col>
+                            </Row>
+                        </Container>
+                    </section>
+
+                </div>
 
 
             </div>
