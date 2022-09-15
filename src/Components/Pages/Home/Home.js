@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faPaperPlane, faMap, faAmbulance, faStethoscope, faUserDoctor, faMapLocationDot, faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 import { faDribbble, faFacebookF, faInstagram, faOptinMonster, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import React, { Component } from 'react';
-import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup, Tab, Table } from 'react-bootstrap';
+import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup, Tab, Table, Card, CardGroup } from 'react-bootstrap';
 import './Home.css';
 import './Home2.css';
 import { Button } from 'bootstrap';
@@ -265,28 +265,28 @@ class Home extends Component {
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> The Big Oxmox advised her not to do so</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Far far away, behind the word mountains</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Separated they live in Bookmarksgrove</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> She packed her seven versalia</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
@@ -307,28 +307,28 @@ class Home extends Component {
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> The Big Oxmox advised her not to do so</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Far far away, behind the word mountains</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Separated they live in Bookmarksgrove</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> She packed her seven versalia</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
@@ -349,28 +349,28 @@ class Home extends Component {
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> The Big Oxmox advised her not to do so</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Far far away, behind the word mountains</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Separated they live in Bookmarksgrove</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> She packed her seven versalia</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
@@ -391,28 +391,28 @@ class Home extends Component {
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> The Big Oxmox advised her not to do so</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Far far away, behind the word mountains</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Separated they live in Bookmarksgrove</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> She packed her seven versalia</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
@@ -433,28 +433,28 @@ class Home extends Component {
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> The Big Oxmox advised her not to do so</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Far far away, behind the word mountains</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Separated they live in Bookmarksgrove</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> She packed her seven versalia</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
@@ -475,28 +475,28 @@ class Home extends Component {
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> The Big Oxmox advised her not to do so</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Far far away, behind the word mountains</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Separated they live in Bookmarksgrove</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> She packed her seven versalia</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
@@ -518,28 +518,28 @@ class Home extends Component {
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> The Big Oxmox advised her not to do so</td>
+                                                                <td className='td'> <div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> The Big Oxmox advised her not to do so</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Far far away, behind the word mountains</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Far far away, behind the word mountains</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> Separated they live in Bookmarksgrove</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> Separated they live in Bookmarksgrove</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
                                                     <Table bordered >
                                                         <tbody>
                                                             <tr>
-                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon'/></div> She packed her seven versalia</td>
+                                                                <td className='td'><div><FontAwesomeIcon icon={faSquareCheck} className='tdIcon' /></div> She packed her seven versalia</td>
                                                             </tr>
                                                         </tbody>
                                                     </Table>
@@ -552,6 +552,96 @@ class Home extends Component {
                         </Tab.Container>
                     </Container>
                 </div>
+
+
+
+                <section className='Cards'>
+                    <h1>Our Qualified Doctors</h1>
+
+                    <Container fluid>
+                        <Row xs={1} md={2} lg={4} className="g-5 ps-5">
+
+                            <Col>
+                                <Card>
+                                    <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-1.jpg.pagespeed.ic.myvVwp80RP.webp" />
+                                    <Card.Body>
+                                        <Card.Title>Dr. Lloyd Wilson</Card.Title>
+                                        <h6>NEUROLOGIST</h6>
+                                        <Card.Text>
+                                            I am an ambitious workaholic, but apart from that, pretty simple person.
+                                        </Card.Text>
+                                        <div className='card-content-icons d-flex justify-content-center'>
+                                            <a href=""><FontAwesomeIcon icon={faFacebookF} className='card-content-icon' /></a>
+                                            <a href=""> <FontAwesomeIcon icon={faTwitter} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faInstagram} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faDribbble} className='card-content-icon' /></a>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col>
+                                <Card>
+                                    <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-2.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
+                                    <Card.Body>
+                                        <Card.Title>Dr. Rachel Parker</Card.Title>
+                                        <h6>OPHTHALMOLOGIST</h6>
+                                        <Card.Text>
+                                            I am an ambitious workaholic, but apart from that, pretty simple person.
+                                        </Card.Text>
+                                        <div className='card-content-icons d-flex justify-content-center'>
+                                            <a href=""><FontAwesomeIcon icon={faFacebookF} className='card-content-icon' /></a>
+                                            <a href=""> <FontAwesomeIcon icon={faTwitter} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faInstagram} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faDribbble} className='card-content-icon' /></a>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col>
+                                <Card>
+                                    <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-3.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
+                                    <Card.Body>
+                                        <Card.Title>Dr. Ian Smith</Card.Title>
+                                        <h6>DENTIST</h6>
+                                        <Card.Text>
+                                            I am an ambitious workaholic, but apart from that, pretty simple person.
+                                        </Card.Text>
+                                        <div className='card-content-icons d-flex justify-content-center'>
+                                            <a href=""><FontAwesomeIcon icon={faFacebookF} className='card-content-icon' /></a>
+                                            <a href=""> <FontAwesomeIcon icon={faTwitter} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faInstagram} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faDribbble} className='card-content-icon' /></a>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col>
+                                <Card>
+                                    <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-4.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
+                                    <Card.Body>
+                                        <Card.Title>Dr. Alicia Henderson</Card.Title>
+                                        <h6>PEDIATRICIAN</h6>
+                                        <Card.Text>
+                                            I am an ambitious workaholic, but apart from that, pretty simple person.
+                                        </Card.Text>
+                                        <div className='card-content-icons d-flex justify-content-center'>
+                                            <a href=""><FontAwesomeIcon icon={faFacebookF} className='card-content-icon' /></a>
+                                            <a href=""> <FontAwesomeIcon icon={faTwitter} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faInstagram} className='card-content-icon' /></a>
+                                            <a href=""><FontAwesomeIcon icon={faDribbble} className='card-content-icon' /></a>
+                                        </div>
+
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+                        </Row>
+                    </Container>
+
+
+                </section>
+
+
             </div>
         );
     }
