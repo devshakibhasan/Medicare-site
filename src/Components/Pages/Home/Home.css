@@ -355,7 +355,7 @@ h3 {
   } */
 .Cards {
     background-color: #F8F9FA;
-    margin-bottom: 5em;
+  
     height: 100vh;
     padding-top: 10em;
 }
@@ -444,10 +444,13 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-position: 20% 50%;
     margin-bottom: 10em;
+    
    
+}
+.banner-two {
+    background-color: #F8F9FA;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -499,6 +502,3 @@ h3 {
     display: flex;
 }
 
-.home-banner-second-right {
-    padding-top: 5em;
-}

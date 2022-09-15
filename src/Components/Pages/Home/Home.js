@@ -640,7 +640,7 @@ class Home extends Component {
 
 
                 </section>
-                <div>
+                <div className='banner-two'>
                     <section class="home-banner-second">
                         <Container>
                             <Row className='mb-2'>
