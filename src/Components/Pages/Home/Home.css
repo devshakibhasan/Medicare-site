@@ -374,7 +374,7 @@ h3 {
 .Cards {
     background-color: #F8F9FA;
   
-    height: 100vh;
+    min-height: 50vh;
     padding-top: 5em;
 }
 
@@ -389,6 +389,10 @@ h3 {
     transition: all 0.3s ease;
 }
 @media screen and (max-width: 992px) {
+    .Cards {
+        height: 100vh;
+   
+    }
     .card {
         margin-bottom: 5em;
     }
