@@ -195,7 +195,7 @@ class Home extends Component {
                     <Container>
                         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                             <Row>
-                                <Col sm={3}>
+                                <Col sm={4} md={4}>
                                     <Nav variant="pills" className="flex-column">
                                         <Nav.Item>
                                             <Nav.Link eventKey="first">
@@ -249,7 +249,7 @@ class Home extends Component {
                                         </Nav.Item>
                                     </Nav>
                                 </Col>
-                                <Col sm={9}>
+                                <Col sm={8} md={8}>
                                     <Tab.Content className='tab-cntn'>
 
                                         <Tab.Pane eventKey="first">

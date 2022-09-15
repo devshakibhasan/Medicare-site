@@ -319,6 +319,24 @@ h3 {
     transform: none;
 
 }
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .home-dept .tab-cntn img {
+        display: none;
+    
+    }
+    .tab-cntn {
+        padding-left: 5em;
+    }
+}
+@media screen and (min-width: 276px) and (max-width: 575px){
+    .home-dept .tab-cntn img {
+        display: none;
+    
+    }
+    .tab-cntn {
+        padding-left: 1.5em;
+    }
+}
 
 .tabsNav {
     display: flex;
