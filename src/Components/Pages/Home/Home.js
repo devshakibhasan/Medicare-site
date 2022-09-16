@@ -559,7 +559,7 @@ class Home extends Component {
                     <h1>Our Qualified Doctors</h1>
 
                     <Container fluid>
-                        <Row xs={1} md={2} lg={4} className="g-5 ps-5">
+                        <Row xs={1} md={2} lg={4} className="g-5 ps-sm-5">
 
                             <Col>
                                 <Card>
