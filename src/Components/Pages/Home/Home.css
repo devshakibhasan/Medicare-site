@@ -616,7 +616,7 @@ h3 {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(120deg, #32aae6, #15a4ec);
-        background-color: #333;
+    background-color: #333;
     opacity: 0.7;
 }
 
@@ -641,14 +641,13 @@ h3 {
 
 
 
-.slider {
-    margin-bottom: 10em;
-}
+.slider {}
 
 .slider-heading1 {
     color: #fff;
 
 }
+
 .slider-heading2 {
     padding-bottom: 2em;
     color: #fff;
@@ -712,4 +711,77 @@ h3 {
     width: 5em;
     border-radius: 50%;
     margin-right: .8em;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    padding: 4em 0px;
+    text-align: left;
+}
+.footer h2{
+ 
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-bottom: 3.5em;
+   
+}
+
+.footer-cnt1 {
+    text-align: left;
+
+}
+
+.footer-cnt1 p {
+    padding-top: 2.5em;
+    text-align: left;
+
+}
+
+.footer .footer-cnt1 img {
+    background: none;
+    height: 4em;
+
+}
+
+.footer a {
+    text-decoration: none;
+    padding-bottom: 1em;
+    color: #000;
+}
+.footer a:hover {
+    color: rgb(9, 115, 236);
+}
+.footer a .footer-content-icon{
+    color: rgb(9, 115, 236);
+}
+
+.footer-link {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+.footer-linkS {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+.footer-linkS a{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+  
+}
+.footer-linkS a p{
+  padding-left: 1.2em;
+  margin-top: -5px;
+}
+
+.footer-cnt2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
 }

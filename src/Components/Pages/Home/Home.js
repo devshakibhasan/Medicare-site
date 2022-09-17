@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faPaperPlane, faMap, faAmbulance, faStethoscope, faUserDoctor, faMapLocationDot, faSquareCheck } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faPaperPlane, faMap, faAmbulance, faStethoscope, faUserDoctor, faMapLocationDot, faSquareCheck, faArrowRight, faChevronRight, faPhone, faLocation, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDribbble, faFacebookF, faInstagram, faOptinMonster, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import React, { Component } from 'react';
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup, Tab, Table, Card, CardGroup } from 'react-bootstrap';
@@ -783,7 +783,7 @@ class Home extends Component {
                     <div className=''>
 
                         <section class="Slider-content">
-                            <p className='slider-heading1'>READ TESTIMONIALS</p> 
+                            <p className='slider-heading1'>READ TESTIMONIALS</p>
                             <h2 className='slider-heading2'>Our Patient Says</h2>
                             <Container>
                                 <div class="home-demo">
@@ -851,6 +851,77 @@ class Home extends Component {
                     </div>
                 </div>
 
+
+                <div className='footer'>
+                    <Container>
+                        <Row>
+                            <Col className='footer-cnt1' sm={1} md={6} lg={2}>
+                                <div className='footer-cnt1'>
+                                    <img src="https://i.ibb.co/8YZbPDY/Screenshot-13.png" alt="" />
+                                    <p>Far far away, behind the word mountains, far from the countries.</p>
+                                    <div>
+                                        <a href=""><FontAwesomeIcon icon={faFacebookF} className='top-content-icon' /></a>
+                                        <a href=""> <FontAwesomeIcon icon={faTwitter} className='top-content-icon' /></a>
+                                        <a href=""><FontAwesomeIcon icon={faInstagram} className='top-content-icon' /></a>
+                                        <a href=""><FontAwesomeIcon icon={faDribbble} className='top-content-icon' /></a>
+                                    </div>
+                                </div>
+
+
+                            </Col>
+                            <Col className='footer-cnt2' sm={1} md={6} lg={2}>
+                                <h2>DEPARTMENTS</h2>
+                                <div className='footer-link'>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Neurology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Ophthalmology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Nuclear Magnetic</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> X-Ray</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Surgical</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Cardiology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Dental</a>
+                                </div>
+
+                            </Col>
+                            <Col className='footer-cnt3' sm={1} md={6} lg={2}>
+                                <h2>LINKS</h2>
+                                <div className='footer-link'>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Neurology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Ophthalmology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Nuclear Magnetic</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> X-Ray</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Surgical</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Cardiology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Dental</a>
+                                </div>
+
+                            </Col>
+                            <Col className='footer-cnt4' sm={1} md={6} lg={2}>
+
+                                <h2>SERVICES
+                                </h2>
+                                <div className='footer-link'>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Neurology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Ophthalmology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Nuclear Magnetic</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> X-Ray</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Surgical</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Cardiology</a>
+                                    <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Dental</a>
+                                </div>
+                            </Col>
+                            <Col className='footer-cnt5' sm={1} md={6} lg={2}>
+                                <h2>HAVE A QUESTIONS?</h2>
+                                <div className='footer-linkS'>
+                                    <a href=""><FontAwesomeIcon icon={faLocationDot} className='footer-content-icon' /> <p>203 Fake St. Mountain View, San Francisco, California, USA</p> </a>
+                                    <a href=""><FontAwesomeIcon icon={faPhone} className='footer-content-icon' /> <p>+2 392 3929 210</p>
+                                    </a>
+                                    <a href=""><FontAwesomeIcon icon={faPaperPlane} className='footer-content-icon' /> <p>	info@yourdomain.com</p></a>
+
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
 
             </div>
         );
