@@ -231,7 +231,7 @@ h4 {
     padding-top: 5em;
 }
 
-.nav-pills .nav-link {
+.home-dept .nav-pills .nav-link {
     background: transparent !important;
     color: #000000;
     font-weight: 600;
@@ -246,7 +246,7 @@ h4 {
     transform: none;
 }
 
-.nav-pills .nav-link.active {
+.home-dept .nav-pills .nav-link.active {
     background-color: transparent !important;
     color: #299ADC !important;
     font-size: 18px;
@@ -260,7 +260,7 @@ h4 {
     transform: none;
 }
 
-.nav-pills .nav-link.active h3 {
+.home-dept .nav-pills .nav-link.active h3 {
     background-color: transparent !important;
     color: #299ADC !important;
     font-size: 18px;
@@ -342,15 +342,15 @@ h3 {
     }
 }
 
-.tabsNav {
+.home-dept .tabsNav {
     display: flex;
 }
 
-.tabsNav img {
+.home-dept .tabsNav img {
     height: 2.5em;
 }
 
-.tabsNav h3 {
+.home-dept .tabsNav h3 {
     padding-top: .5em;
 }
 
