@@ -855,7 +855,7 @@ class Home extends Component {
                 <div className='footer'>
                     <Container>
                         <Row>
-                            <Col className='footer-cnt1' sm={1} md={6} lg={2}>
+                            <Col className='footer-cnt1' sm={12} md={6} lg={2}>
                                 <div className='footer-cnt1'>
                                     <img src="https://i.ibb.co/8YZbPDY/Screenshot-13.png" alt="" />
                                     <p>Far far away, behind the word mountains, far from the countries.</p>
@@ -869,7 +869,7 @@ class Home extends Component {
 
 
                             </Col>
-                            <Col className='footer-cnt2' sm={1} md={6} lg={2}>
+                            <Col className='footer-cnt2' sm={12} md={6} lg={2}>
                                 <h2>DEPARTMENTS</h2>
                                 <div className='footer-link'>
                                     <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Neurology</a>
@@ -882,7 +882,7 @@ class Home extends Component {
                                 </div>
 
                             </Col>
-                            <Col className='footer-cnt3' sm={1} md={6} lg={2}>
+                            <Col className='footer-cnt3' sm={12} md={6} lg={2}>
                                 <h2>LINKS</h2>
                                 <div className='footer-link'>
                                     <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Neurology</a>
@@ -895,7 +895,7 @@ class Home extends Component {
                                 </div>
 
                             </Col>
-                            <Col className='footer-cnt4' sm={1} md={6} lg={2}>
+                            <Col className='footer-cnt4' sm={12} md={6} lg={2}>
 
                                 <h2>SERVICES
                                 </h2>
@@ -909,7 +909,7 @@ class Home extends Component {
                                     <a href=""><FontAwesomeIcon icon={faChevronRight} className='footer-content-icon' /> Dental</a>
                                 </div>
                             </Col>
-                            <Col className='footer-cnt5' sm={1} md={6} lg={2}>
+                            <Col className='footer-cnt5' sm={12} md={6} lg={2}>
                                 <h2>HAVE A QUESTIONS?</h2>
                                 <div className='footer-linkS'>
                                     <a href=""><FontAwesomeIcon icon={faLocationDot} className='footer-content-icon' /> <p>203 Fake St. Mountain View, San Francisco, California, USA</p> </a>
@@ -929,16 +929,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-// <img src="https://i.ibb.co/WsrkM80/xabout-jpg-pagespeed-ic-Yd-ESj-G30x-H.webp"
-// <img src="https://i.ibb.co/GdhLXmP/xdept-7-jpg-pagespeed-ic-y904lm6-Gq.webp"
-
-// <img src="https://i.ibb.co/dj4bHQ1/xdept-5-jpg-pagespeed-ic-RSSq686th-P.webp"
-
-// <img src="https://i.ibb.co/nQBNqCs/xdept-4-jpg-pagespeed-ic-RSSq686th-P.webp"
-
-// <img src="https://i.ibb.co/bXV6LD8/xdept-3-jpg-pagespeed-ic-RSSq686th-P.webp"
-
-// <img src="https://i.ibb.co/rGC5hsT/xdept-2-jpg-pagespeed-ic-RSSq686th-P.webp"
-
-// <img src="https://i.ibb.co/F0gG9s1/xdept-1-jpg-pagespeed-ic-RSSq686th-P.webp" 
