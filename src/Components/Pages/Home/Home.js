@@ -3,13 +3,52 @@ import { faCoffee, faPaperPlane, faMap, faAmbulance, faStethoscope, faUserDoctor
 import { faDribbble, faFacebookF, faInstagram, faOptinMonster, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import React, { Component } from 'react';
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, InputGroup, Tab, Table, Card, CardGroup } from 'react-bootstrap';
+
+
 import './Home.css';
 import './Home2.css';
 import { Button } from 'bootstrap';
 import Header from '../../Shared/Header/Header';
 
 class Home extends Component {
+
     render() {
+        window.$(function () {
+            // Owl Carousel
+            var owl = window.$(".owl-carousel");
+            owl.owlCarousel({
+                items: 3,
+                margin: 10,
+                loop: true,
+                nav: true,
+                autoplay: true,
+                autoplayHoverPause: true,
+
+                smartSpeed: 300,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+
+                    600: {
+                        items: 2
+                    },
+
+                    1024: {
+                        items: 3
+                    },
+
+                    1366: {
+                        items: 3
+                    },
+                    1566: {
+                        items: 3
+                    }
+                }
+            });
+        });
+
+
         return (
             <div>
                 <div className='home-top-section'>
@@ -559,10 +598,10 @@ class Home extends Component {
                     <h1>Our Qualified Doctors</h1>
 
                     <Container fluid>
-                        <Row xs={1} md={2} lg={4} className="g-5 ps-sm-5">
+                        <Row xs={12} md={2} lg={4} className="g-5 ps-sm-5">
 
                             <Col>
-                                <Card>
+                                <Card className='Cardss'>
                                     <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-1.jpg.pagespeed.ic.myvVwp80RP.webp" />
                                     <Card.Body>
                                         <Card.Title>Dr. Lloyd Wilson</Card.Title>
@@ -580,7 +619,7 @@ class Home extends Component {
                                 </Card>
                             </Col>
                             <Col>
-                                <Card>
+                                <Card className='Cardss'>
                                     <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-2.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
                                     <Card.Body>
                                         <Card.Title>Dr. Rachel Parker</Card.Title>
@@ -598,7 +637,7 @@ class Home extends Component {
                                 </Card>
                             </Col>
                             <Col>
-                                <Card>
+                                <Card className='Cardss'>
                                     <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-3.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
                                     <Card.Body>
                                         <Card.Title>Dr. Ian Smith</Card.Title>
@@ -616,7 +655,7 @@ class Home extends Component {
                                 </Card>
                             </Col>
                             <Col>
-                                <Card>
+                                <Card className='Cardss'>
                                     <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-4.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
                                     <Card.Body>
                                         <Card.Title>Dr. Alicia Henderson</Card.Title>
@@ -640,6 +679,7 @@ class Home extends Component {
 
 
                 </section>
+
                 <div className='banner-two'>
                     <section class="home-banner-second">
                         <Container>
@@ -676,6 +716,139 @@ class Home extends Component {
                         </Container>
                     </section>
 
+                </div>
+
+                <div className='Blogs '>
+                    <h1>Latest Blog Updates</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    <Container fluid>
+                        <Row className="g-5 ps-sm-5 d-flex justify-content-center">
+
+                            <Col xs={12} sm={6} md={6} lg={3}>
+                                <Card className='Cardss'>
+                                    <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/ximage_1.jpg.pagespeed.ic.fBamkg-o75.webp" />
+                                    <Card.Body>
+                                        <Card.Title>Scary Thing That You Don’t Get Enough Sleep</Card.Title>
+
+                                        <Card.Text>
+                                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+                                            Scary Thing That You Don’t Get Enough Sleep....
+                                        </Card.Text>
+                                        <div className='card-content-button d-flex justify-content-center'>
+                                            <button>Read More</button>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col xs={12} sm={6} md={6} lg={3}>
+                                <Card className='Cardss'>
+                                    <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-2.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
+                                    <Card.Body>
+                                        <Card.Title>Scary Thing That You Don’t Get Enough Sleep</Card.Title>
+
+                                        <Card.Text>
+                                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+                                            Scary Thing That You Don’t Get Enough Sleep....
+                                        </Card.Text>
+                                        <div className='card-content-button d-flex justify-content-center'>
+                                            <button>Read More</button>                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col xs={12} sm={6} md={6} lg={3}>
+                                <Card className='Cardss'>
+                                    <Card.Img variant="top" src="https://preview.colorlib.com/theme/medex/images/xdoc-3.jpg.pagespeed.ic.2QUsxWkZeQ.webp" />
+                                    <Card.Body>
+                                        <Card.Title>Scary Thing That You Don’t Get Enough Sleep</Card.Title>
+
+                                        <Card.Text>
+                                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+                                            Scary Thing That You Don’t Get Enough Sleep....
+                                        </Card.Text>
+                                        <div className='card-content-button d-flex justify-content-center'>
+                                            <button>Read More</button>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+
+                        </Row>
+                    </Container>
+                </div>
+
+
+                <div className='slider'>
+
+                    <div className=''>
+
+                        <section class="Slider-content">
+                            <p className='slider-heading1'>READ TESTIMONIALS</p> 
+                            <h2 className='slider-heading2'>Our Patient Says</h2>
+                            <Container>
+                                <div class="home-demo">
+
+                                    <div class="owl-carousel owl-theme">
+
+                                        <Col>
+                                            <div class="item">
+                                                <img src="https://i.ibb.co/25Ksgg4/blob.jpg" alt="" />
+
+                                                <div>
+                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+                                                    <h4>Shakib Hasan</h4>
+                                                    <h6>PATIENTS</h6>
+                                                </div>
+
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div class="item">
+
+
+                                                <img src="https://preview.colorlib.com/theme/medex/images/xdoc-1.jpg.pagespeed.ic.myvVwp80RP.webp" alt="" />
+
+                                                <div>
+                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+                                                    <h4>Shakib Hasan</h4>
+                                                    <h6>PATIENTS</h6>
+                                                </div>
+
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div class="item">
+
+                                                <img src="https://preview.colorlib.com/theme/medex/images/xdoc-1.jpg.pagespeed.ic.myvVwp80RP.webp" alt="" />
+
+                                                <div>
+                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+                                                    <h4>Shakib Hasan</h4>
+                                                    <h6>PATIENTS</h6>
+                                                </div>
+
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div class="item">
+
+
+                                                <img src="https://preview.colorlib.com/theme/medex/images/xdoc-1.jpg.pagespeed.ic.myvVwp80RP.webp" alt="" />
+
+                                                <div>
+                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+                                                    <h4>Shakib Hasan</h4>
+                                                    <h6>PATIENTS</h6>
+                                                </div>
+
+                                            </div>
+                                        </Col>
+
+                                    </div>
+                                </div>
+                            </Container>
+                        </section>
+                    </div>
                 </div>
 
 
